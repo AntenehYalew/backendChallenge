@@ -1,0 +1,39 @@
+<%- include ("../partials/header")  %> 
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 list-left">
+            <% if(allLists){%>
+                <% allLists.forEach(e => {%>
+                <div class="list-left-cont">
+                <div class="form-group" style="display: inline;">
+                    <a href="show/<%= e._id%>" class="btn"> <%=e.title  %></a>
+                </div>
+               <div class="float-right flt-rght">
+                <form action="/update/<%=e._id%>" method="get" style="display: inline;">
+                    <button type="submit" class="btn"><i class="fas fa-user-edit fa-lg"></i></i></button>
+                </form>
+                <form action="/delete/<%=e._id%>?_method=DELETE" method="POST" style="display: inline;">
+                    <button type="submit" class="btn"><i class="fas fa-trash-alt fa-lg"></i></button>
+                </form>
+               </div>
+            </div>
+
+            
+  
+            <%}); %> 
+            <%} %> 
+  
+        </div>
+        <div class="col-6">
+            <pre>
+                <code>
+                <%= allLists %> 
+                </code>
+            </pre>   
+        </div>
+    </div>
+</div>
+
+
+<%- include("../partials/footer")  %> 

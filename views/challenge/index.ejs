@@ -1,0 +1,42 @@
+<%- include("../partials/header") %> 
+        <div class="jumbotron jumbotron-fluid jumbo-mod">
+            <div class="container">
+              <h1 class="display-4">Tagup Challenge 1</h1>
+              <p class="lead">Create a RESTful API connected to a local database that can save, modify, delete,and output data records.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row row-idx">
+                <div class="col-6 ">
+                  <div class="indx-left">
+
+              
+                    <h3>Back-End</h3>
+                    <p> This simple sample project has looked at one of the industries which took a hard hit, the aviation industry, due to covid-19</p>
+                    <p>User will be requested to submit the following</p>
+                    <ul>
+                      <li>Name, origin and destination</li>
+                        <ul>
+                          <li>That will be concatenated to create a title </li>
+                        </ul>
+                      <li>Final Fuel Figure in liters</li>
+                      <li>Selects whether the trip is a roundtrip or Single trip</li>
+                    </ul>
+                    <p>As this is not a replica of the actual flight operation, some assumptions are taken into consideration that will be processed at the back-end</p>
+                    <ul>
+                      <li>It is a Wide Body Aircraft</li>
+                      <li>Total Cargo weight is 56,657Kg</li>
+                      <li>Total Number of customers on a given flight is 275 with 16 crew members </li>
+                     </ul>
+                     <p>User is only expected to add the final fuel figure(Mostly falls between 65,000 to 120,000 liters), while the calculation of the given cargo weight and customers' weight is processed at the back to find the liters spent per Kg. </p>
+                </div>
+              </div>
+                <div class="col-6">
+                    <a class="btn btn-mod  btn-lg btn-block" href="/listall">List All</a>
+                    <a class="btn btn-mod  btn-lg btn-block" href="/create">Create a New List</a>
+                </div>
+
+            </div>
+          </div>
+<%- include("../partials/footer") %> 
+         

@@ -1,0 +1,100 @@
+body{
+    color: #0d1944;
+}
+.main-container{
+    position: relative;
+    min-height: 100vh;
+}
+.main-ex-footer{
+    padding-bottom: 2.5rem;
+}
+.navbar-mod{
+    background-color: #0d1944;
+}
+.navbar-mod a{
+    margin-left: 5%;
+    color: white;
+}
+.navbar-mod a:hover{
+    color: #ff4f00;
+}
+.navbar-mod ul li{
+    display: inline;
+}
+.jumbo-mod{
+    background-color: #0d1944;
+}
+.jumbo-mod h1, .jumbo-mod p{
+    color: #fff;
+}
+.btn-mod{
+    border-color: #ff4f00;
+    margin: 5% 0;
+    color: #0d1944;
+    padding: 3%;
+}
+.btn-mod:hover{
+    background-color: #ff4f00;
+    color: white;
+}
+.row-idx{
+    color: #0d1944;
+    padding-bottom: 3rem;
+}
+.indx-left{
+    margin-right: 3rem;
+}
+.form-new{
+    width: 40%;
+    margin: auto;
+}
+.form-new-h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.flt-rght{
+    margin-right: 10%;
+}
+.flt-rght button{
+    margin: 0 0.5rem;
+}
+.list-left{
+    margin: 2.5rem 0;
+    width: 90%;
+    color: #0d1944;
+    min-height: 80vh;
+    border-right: 1px solid black;
+    
+}
+
+.list-left-cont{
+    padding: 1rem;
+}
+.list-left-cont a{
+    width:60%
+}
+.list-left-cont a:hover{
+    background-color: #ff4f00;
+    color: white;
+}
+.list-left-cont i:hover{
+    color: #ff4f00;
+}
+pre code{
+    color: #669900;
+}
+
+footer{
+    background-color: #0d1944;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+}
+footer div{
+    
+    color: white;
+    margin-left: 10%;
+}
